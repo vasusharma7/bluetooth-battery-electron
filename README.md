@@ -4,7 +4,7 @@
 
 - This project provides an electron wrapper on bluetooth batttery package python package (https://pypi.org/project/bluetooth-battery/) and runs as a system tray application, indicating battery of bluetooth devices connected with Linux machine. 
  
-- The code of the library was modified a bit to work with electron version. The changed file is present in bbt/bluetooth_battery.py.
+- The code of the library was modified a bit to work with electron version. The changed file is present in ![bbt/bluetooth_battery.py](https://github.com/vasusharma7/bluetooth-battery-electron/blob/master/bbt/bluetooth_battery.py).
 
 - Its pre-requisites include Python3 to be installed in the system and a few bluetooth related linux packages which can be installed by the following command.
 
