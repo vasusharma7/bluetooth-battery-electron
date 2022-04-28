@@ -1,0 +1,24 @@
+{
+  "name": "bluetooth-battery",
+  "version": "1.0.0",
+  "productName": "BtBat",
+  "description": "An application for calculating battery percentage of devices connected to laptop in linuxP",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "electron .  ",
+    "build": "rimraf btbat-* && electron-packager . --platform=linux --arch=x64  --icon=app"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "active-win": "^6.3.0"
+  },
+  "dependencies": {
+    "auto-launch": "^5.0.5",
+    "electron": "^18.0.4",
+    "electron-packager": "^15.4.0",
+    "electron-reload": "^1.5.0",
+    "python-shell": "^2.0.0"
+  }
+}

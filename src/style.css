@@ -1,0 +1,52 @@
+body {
+  color: white;
+  font-family: sans-serif;
+  background-color: rgba(0, 0, 0, 0.9);
+  overflow-x: hidden;
+  -webkit-app-region: drag;
+  -webkit-user-select: none;
+}
+.close {
+  -webkit-app-region: no-drag;
+  position: absolute;
+  right: 0%;
+  width: 50px;
+  height: 50px;
+}
+.min {
+  -webkit-app-region: no-drag;
+  position: absolute;
+  margin: 1%;
+  left: 0%;
+  width: 40px;
+  height: 40px;
+}
+.logo {
+  -webkit-app-region: no-drag;
+  transform: scale(0.5);
+}
+.image {
+  -webkit-app-region: no-drag;
+  width: 200px;
+  height: 25vh;
+  margin: 0 2% 0 2%;
+}
+.title {
+  -webkit-app-region: no-drag;
+  margin: 5%;
+}
+.btn {
+  /* margin-top: 2%; */
+  -webkit-app-region: no-drag;
+  border: 1px solid white;
+  background: transparent;
+  width: 100px;
+  height: 50px;
+  color: white;
+  text-align: center;
+}
+.active {
+  -webkit-app-region: no-drag;
+  background-color: white;
+  color: black;
+}

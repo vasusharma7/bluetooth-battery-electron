@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E.V.A.</title>
+  </head>
+  <body>
+    <img src="assets/close.png" class="close" id="close" />
+    <img src="assets/min.png" class="min" id="min" />
+    <center>
+      <div
+        class="d-flex flex-column row justify-content-center align-items-center"
+      >
+        <!-- <h1 class="title">E.V.A.</h1> -->
+        <img src="assets/eva.png" class="logo" />
+        <div class="d-flex justify-content-center" style="width: 100%;">
+          <button class="btn active" id="ast">
+            Assistant
+          </button>
+          <img src="assets/tenor.gif" class="image" />
+          <button class="btn" id="chat">
+            Chat
+          </button>
+        </div>
+        <h5 class="text">Say Something ...</h5>
+        <h5 id="reply"></h5>
+      </div>
+    </center>
+  </body>
+  <script>
+    require("./bot");
+  </script>
+</html>
