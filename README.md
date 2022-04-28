@@ -13,6 +13,12 @@
 sudo apt install libbluetooth-dev python3-dev
 
 ```
+## How to start/use
+
+- Unzip the package zip
+- Execute run.sh from terminal and it will start BtBat. (Can also run BtBat executable directly from GUI but some versions of file managers have issues launching electon built applications directly)
+- The application will launch in system tray.
+- This also creates a system startup entry so it starts next time you boot.
 
 ![image](https://user-images.githubusercontent.com/40715071/165670867-39b66543-51b5-45b5-a2a7-73683d5e664f.png)
 
@@ -20,3 +26,4 @@ sudo apt install libbluetooth-dev python3-dev
 - This is just a personal learning project, not for any commercial usage.
 
 - If any issues with code/release, mail me @ mailsforvasu@gmail.com
+
